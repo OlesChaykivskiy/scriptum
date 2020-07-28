@@ -1,0 +1,29 @@
+<?php ?> відкриття і закриття php коду.
+
+name Violin
+pass  n5@e2eXLrwTc$CHDsO
+
+<?php echo get_template_directory_uri() . '/assets/css/style.css'   ?>  шлях до папки зі стилями
+
+functions.
+
+echo "" 		для виведення тексту між лапками(h1-h6,p iтд)
+\ 			послідовність. Дозволяю php бачити символи не як код
+\n			з нового рядка
+.			оператор обєднання рядків
+$my_name = " Oles ";    оголошення змінної my_name ш надання їй значення Oles
+.=			оператор переприсвоювання змінної для додавання нових значень
+== 			перевірка значення
+
+if(умова) {
+  дія}
+ else{
+  якщо ні значить ця дія}
+
+if($name == 'Alexander'){
+	echo 'all ok';
+} elseif($name == 'Kiril'){
+	echo 'ok';
+} else {
+	echo 'other name';}
+
