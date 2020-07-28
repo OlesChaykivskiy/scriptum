@@ -1,0 +1,88 @@
+h1, h2, h3, h4, h5, h6 {
+   color: #000;
+   font-weight: 400;
+}
+
+h1, .h1{
+   font-family: ' Baron Neue', serif;
+   font-weight: 900;
+   font-size: 45px;
+   line-height: 1.214;
+   text-transform: uppercase;
+   @include rwd-max(768){
+      font-size: 36px;
+   }
+ 
+
+}
+h2, .h2{
+   font-family: 'Baron Neue', serif;
+   font-size: 38px;
+   line-height: 1.214;
+   @include rwd-max(425){
+      font-size: 32px;
+   }
+}
+h3, .h3{
+   font-family: 'Baron Neue', serif;
+   font-size: 14px;
+   line-height: 1.214;
+  
+}
+h4, .h4{
+   font-size: 21px;
+   @include rwd-max(425){
+      font-size: 18px;
+   }
+}
+h5, .h5{
+   font-family: Arial, sans-serif;
+   font-size: 13px;
+   color: #000;
+   
+}
+h6{
+   font-family:  'Baron Neue' ;
+   font-size: 65px;
+   text-transform: uppercase;
+   color: #fff;
+   @include rwd-max(1325){
+      font-size: 55px;
+      line-height: 1.2;
+   }
+   @include rwd-max(1100){
+      font-size: 45px;
+      line-height: 1.2;
+   }
+
+}
+p{
+   font-family: Arial, sans-serif;
+   font-size: 15px;
+   color: #000000
+}
+body{
+   font-size: 15px;
+}
+.btn{
+   font-family: 'Baron Neue', sans-serif;
+   display: inline-block;
+   font-size: 13px;
+   color: #000;
+   background-color: #f3f3f3;
+   transition: all ease 0.2s;
+   padding: 12px 15px;
+   margin: 10px;
+   text-decoration: none;
+   text-transform: uppercase;
+   max-width: 200px;
+   overflow: hidden;
+   cursor: pointer;
+   border-radius: 25px;
+   text-align: center;
+}
+.btn:hover{
+   box-shadow: 2px 2px 20px 2px rgba(0, 0, 0, 0.25);
+   
+}
+

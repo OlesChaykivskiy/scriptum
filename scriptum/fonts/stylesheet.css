@@ -1,0 +1,17 @@
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeue.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Baron Neue';
+    src: url('BaronNeueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
